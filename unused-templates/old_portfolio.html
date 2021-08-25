@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portfolio</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"/>
+        <meta content="" name="author"/>
+
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+        <!-- THEME STYLES -->
+        <link href="css/portfolio.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+
+        <meta http-equiv="refresh" content="0; URL=portfolio/" />
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="" href="index.html">
+                                <h1 class="logo-img-main" style="color: #fff; margin-top: 15px" alt="Asentus Logo">Jimmy Spann</h1>
+                                <h1 class="logo-img-active" style="color: #515769; margin-top: 15px" alt="Asentus Logo">Jimmy Spann</h1>
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul id="mainNav" class=" navbar-nav navbar-nav-right">
+                                <li class="nav-item"><a href="#Home" class="page-scroll nav-item-child nav-item-hover">Home</a></li>
+                                <li class="nav-item"><a href="#BMI-Chart" class="page-scroll nav-item-child nav-item-hover">BMI Chart</a></li>
+                                <li class="nav-item"><a href="#JM-Wallet" class="page-scroll nav-item-child nav-item-hover">JM Wallet</a></li>
+                                <li class="nav-item"><a href="#Alimagham-Sounds" class="page-scroll nav-item-child nav-item-hover">Alimagham Sounds</a></li>
+                                <li class="nav-item"><a href="#ET-Turmoil" class="page-scroll nav-item-child nav-item-hover">ET Turmoil</a></li>
+                                <li class="nav-item"><a href="#Teachers-Pet" class="page-scroll nav-item-child nav-item-hover">Teacher's Pet</a></li>
+                                <li class="nav-item"><a href="#Contact" class="page-scroll nav-item-child nav-item-hover">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" id="Home">
+                <div class="item active">
+                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
+                    <div class="container">
+                        <div class="carousel-centered">
+                            <div class="margin-b-40">
+                                <h1 class="carousel-title">Portfolio</h1>
+                                <p>Here is a list of some of my past work.</p>
+                            </div>
+                            <a href="#BMI-Chart" class="btn-theme btn-theme-sm btn-white-brd text-uppercase page-scroll">Explore</a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        
+         <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body">
+          <img src="" class="enlargeImageModalSource" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+</div>
+
+        <!-- BMI Chart -->
+        <div class="bg-color-sky-light overflow-h" id="BMI-Chart">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>BMI Chart - Capstone Project</h2>
+                        <p>This web application was created in Angular 5 for the senior project of my degree. The BMI Chart was requested by JuliSu DiMucci-Ward who wants to prevent illnesses by checking for fluctuations within the body mass index of children and infants. The app records the weight and height of infants, calculates the BMI, then places data within the chart.</p>
+                        <p>The app uses RestfulAPI to send data to the front end. This allows for flexible updates and a hefty increase to security.</p>
+                    </div>
+                </div>
+                <!--// end row -->
+
+                <!-- Masonry Grid -->
+                <div class="masonry-grid">
+                    <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                    <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/portfolio/bmi-1.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Client Search</h3>
+                                <p class="color-white margin-b-0">Search for clients created on the database.</p>
+                            </div>                        
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/portfolio/bmi-2.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Default Look</h3>
+                                <p class="color-white margin-b-0">This is what you see when you first log on.</p>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/portfolio/bmi-3.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">BMI Chart</h3>
+                                <p class="color-white margin-b-0">When a client is chosen, a chart will show the past data entries.</p>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".4s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/portfolio/bmi-4.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Adding New Entry</h3>
+                                <p class="color-white margin-b-0">You can add the weight and height of a baby and it will calcuate the bmi. The calculator supports lb, kg, in, and cm.</p>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                    <div class="masonry-grid-item col-xs-6 col-sm-6 col-md-4">
+                        <!-- Work -->
+                        <div class="work wow fadeInUp" data-wow-duration=".3" data-wow-delay=".5s">
+                            <div class="work-overlay">
+                                <img class="full-width img-responsive" src="img/portfolio/bmi-5.png" alt="Portfolio Image">
+                            </div>
+                            <div class="work-content">
+                                <h3 class="color-white margin-b-5">Edit Client Data</h3>
+                                <p class="color-white margin-b-0">If you made a mistake, you can go back and edit the records you've added.</p>
+                            </div>
+                        </div>
+                        <!-- End Work -->
+                    </div>
+                </div>
+                <!-- End Masonry Grid -->
+            </div>
+        </div>
+        <!-- End BMI Chart -->
+
+        <!-- JM Wallet -->
+        <div class="content-lg container" id="JM-Wallet">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Justmake Wallet App</h2>
+                    <p>This is the first app I created for a company. The app let's you mine, store, and trade the JM crypto currency. </p>
+                </div>
+            </div> 
+                    
+            <div class="col-sm-3 sm-margin-b-50">
+                <div class="margin-b-10">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive popupthingy" style="border: 1px solid #000; max-height: 500px;" src="img/portfolio/jm-1.png" alt="Latest Products Image">
+                    </div>
+                </div>
+                <h4>Login Screen</h4>
+            </div>
+            
+            <div class="col-sm-3 sm-margin-b-50">
+                <div class="margin-b-10">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive popupthingy" style="border: 1px solid #000; max-height: 500px;" src="img/portfolio/jm-2.png" alt="Latest Products Image">
+                    </div>
+                </div>
+                <h4>Edit Profile</h4>
+            </div>
+            
+            <div class="col-sm-3 sm-margin-b-50">
+                <div class="margin-b-10">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="img-responsive popupthingy" style="border: 1px solid #000; max-height: 500px;" src="img/portfolio/jm-3.png" alt="Latest Products Image">
+                    </div> 
+                </div>
+                <h4>Wallet Dashboard</h4>
+            </div>
+            
+           <div class="row" >
+                <div class="col-sm-6">
+                    <a href="https://play.google.com/store/apps/details?id=com.justmake.app" target="_blank"><img class="img-responsive" style="width: 250px; margin-top: 20px;" src="img/badges/google-play-badge.png"></a>
+                </div>
+           </div> 
+            
+        </div>
+        <!-- End JM Wallet -->
+        
+        
+        
+        
+        <!-- Alimagham Sounds -->
+        <div class="bg-color-sky-light overflow-h" id="Alimagham-Sounds">
+            <div class="content-lg container">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Alimagham Sound Board</h2>
+                        <p>This was created to honor my coding professor Matthew Alimagham from Spartaburg Community College. The app plays some of the most popular quotes that he uses.</p>
+                    </div>
+                </div> 
+                        
+                <div class="col-sm-3 sm-margin-b-50">
+                    <div class="margin-b-10">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive popupthingy" style="border: 1px solid #000; max-height: 500px;" src="img/portfolio/asb-1.png">
+                        </div>
+                    </div>
+                    <h4>Menu Screen</h4>
+                </div>
+                
+                <div class="col-sm-3 sm-margin-b-50">
+                    <div class="margin-b-10">
+                        <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                            <img class="img-responsive popupthingy" style="border: 1px solid #000; max-height: 500px;" src="img/portfolio/asb-2.png">
+                        </div>
+                    </div>
+                    <h4>Sound Board</h4>
+                </div>
+                
+               <div class="row" >
+                    <div class="col-sm-6">
+                        <a href="https://play.google.com/store/apps/details?id=com.SCC.Alimagham_Sounds" target="_blank"><img class="img-responsive" style="width: 250px; margin-top: 20px;" src="img/badges/google-play-badge.png"></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="AlimaghamSounds.html"><img class="img-responsive" style="width: 250px; margin-top: 20px;" src="img/badges/Jimmy-badge.png"></a>
+                    </div>
+               </div> 
+            </div>
+        </div>
+        <!-- End Alimagham Sounds -->
+        
+        <!-- Extra Terrestrial Turmoil -->
+        <div class="content-lg container" id="ET-Turmoil">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Extra Terrestrial Turmoil</h2>
+                    <p>This was created for the final project of my c# class. It went above and beyond class expectations. For a moment I was proud of it, but no one really used it. They admired it, but rarely played it. From then I made it a big deal to create software that people will actually use.</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QaHQs4F_3SQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Extra Terrestrial Turmoil -->
+        
+        
+        
+        <!-- Teacher's Pet -->
+        <div class="bg-color-sky-light overflow-h" id="Teachers-Pet">
+        <div class="content-lg container">
+            <div class="row margin-b-40">
+                <div class="col-sm-6">
+                    <h2>Teacher's Pet</h2>
+                    <p>This was another sweet project I created half way through my c# class. I created it because I was having too many ideas, but not pushing enough of them out. I learned a lot from creating this and it was eligible to be my final project.</p>
+                </div>
+            </div> 
+
+            <div class="col-sm-4 sm-margin-b-50">
+                <div class="margin-b-20">
+                    <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/70_7SLNw9HY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- End Teacher's Pet -->
+
+        <!--========== END PAGE LAYOUT ==========-->
+        
+        
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <!-- Links -->
+            <div class="footer-seperator">
+                <div class="content-lg container">
+                    <div class="row">
+                        <div class="col-sm-2 sm-margin-b-50">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#Home">Home</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#BMI-Chart">BMI Chart</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#JM-Wallet">JM Wallet</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#Alimagham-Sounds">Alimagham Sounds</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#ET-Turmoil">ET Turmoil</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#Teachers-Pet">Teacher's Pet</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Contact</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-4 sm-margin-b-30">
+                            <!-- List -->
+                            <ul class="list-unstyled footer-list">
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">Instagram</a></li>
+                                <li class="footer-list-item"><a class="footer-list-link" href="#">YouTube</a></li>
+                            </ul>
+                            <!-- End List -->
+                        </div>
+                        <div class="col-sm-5 sm-margin-b-30" id="Contact">
+                            <h2 class="color-white" style="word-wrap: break-word;">Send Me An Email At JimmyLeeSpann@Outlook.com</h2>
+                            <!--input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required>
+                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required>
+                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Message" required></textarea>
+                            <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Submit</button-->
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!-- End Links -->
+
+            <!-- Copyright -->
+            <div class="content container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo_transparent.png" alt="Asentus Logo">
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <p>Copyright &copy; 2021 JimmyLeeSpann</p>
+                        <p class="margin-b-0">Special thanks to<a class="color-base fweight-700" href="http://www.keenthemes.com/"> KeenThemes.com</a></p>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+            <!-- End Copyright -->
+        </footer>
+        <!--========== END FOOTER ==========-->
+        
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
+        <script src="js/components/owl.carousel.min.js"></script>
+
+    </body>
+    <!-- END BODY -->
+</html>
