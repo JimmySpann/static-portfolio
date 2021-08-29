@@ -736,6 +736,10 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+.work:hover {
+  cursor: pointer;
+}
+
 /* Media Queries below 767px */
 @media (max-width: 767px) {
   /* Menu Container */
